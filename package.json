@@ -7,9 +7,11 @@
     "start:http-server": "npm run http-server",
     "start:lite-server": "npm run lite-server",
     "start:live-server": "npm run live-server",
+    "start:browser-sync": "npm run browser-sync",
     "http-server": "http-server -o -c-l ./src -p 8082",
-    "lite-server": "lite-server -c bs-config.js",
-    "live-server": "live-server --open=./src/ --watch=./src --port=8083"
+    "lite-server": "lite-server -c lite-bs-config.js",
+    "live-server": "live-server --open=./src/ --watch=./src --port=8083",
+    "browser-sync": "bash b-start.sh"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   },
   "homepage": "https://github.com/webdemos/dev-servers-comparation#readme",
   "devDependencies": {
+    "browser-sync": "^2.18.13",
     "http-server": "^0.10.0",
     "lite-server": "^2.3.0",
     "live-server": "^1.2.0"
