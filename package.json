@@ -1,0 +1,20 @@
+{
+  "name": "dev-servers-comparation",
+  "version": "1.0.0",
+  "description": "Servers samples for development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdemos/dev-servers-comparation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdemos/dev-servers-comparation/issues"
+  },
+  "homepage": "https://github.com/webdemos/dev-servers-comparation#readme"
+}
