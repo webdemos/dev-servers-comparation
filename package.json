@@ -4,7 +4,10 @@
   "description": "Servers samples for development",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:http-server": "npm run http-server",
+    "start:lite-server": "npm run lite-server",
+    "http-server": "http-server -o -c-l ./src -p 8082",
+    "lite-server": "lite-server -c bs-config.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/webdemos/dev-servers-comparation/issues"
   },
-  "homepage": "https://github.com/webdemos/dev-servers-comparation#readme"
+  "homepage": "https://github.com/webdemos/dev-servers-comparation#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "lite-server": "^2.3.0",
+    "live-server": "^1.2.0"
+  }
 }

@@ -1,6 +1,6 @@
 module.exports = function(bs) {
   return {
-    files: ['./**/*.{html,htm,css,scss,js,ts}'],
+    files: ['./src/**/*.{html,htm,css,scss,js,ts}'],
     watchOptions: {
       ignored: '**/*{node_modules,jspm_packages}/*'  // TODO: I'm not sure this is right or not, https://github.com/johnpapa/lite-server/blob/master/lib/config-defaults.js#L12
     },
@@ -13,7 +13,7 @@ module.exports = function(bs) {
       //   })
       // }
     },
-    startPath: './demo01/index.html'
+    startPath: './src/index.html'
   };
 };
   
