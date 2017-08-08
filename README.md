@@ -4,7 +4,7 @@ Servers samples for development
 
 ## Comparation
 
- - http-server
+ - [http-server](https://www.npmjs.com/package/http-server)
   - Can open browser
   - Support specify a port
   - Support a specify startup path
@@ -12,7 +12,7 @@ Servers samples for development
   - Won't cost too much memory
   - Startup quickly
   - List all files under root
- - lite-server
+ - [lite-server](https://www.npmjs.com/package/lite-server)
   - Can open browser
   - Support specify a port
   - Support custom configuration
@@ -20,5 +20,8 @@ Servers samples for development
   - Auto detect file changes 
   - Cost more memory
   - Startup slowly
- - live-server
-  - 
+ - [live-server](https://www.npmjs.com/package/live-server)
+  - Can open browser
+  - Support specify a port
+  - Support specify a path
+  - Auto detect file changes 

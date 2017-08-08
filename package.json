@@ -6,8 +6,10 @@
   "scripts": {
     "start:http-server": "npm run http-server",
     "start:lite-server": "npm run lite-server",
+    "start:live-server": "npm run live-server",
     "http-server": "http-server -o -c-l ./src -p 8082",
-    "lite-server": "lite-server -c bs-config.js"
+    "lite-server": "lite-server -c bs-config.js",
+    "live-server": "live-server --open=./src/ --watch=./src --port=8083"
   },
   "repository": {
     "type": "git",
